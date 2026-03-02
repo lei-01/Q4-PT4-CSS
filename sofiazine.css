@@ -123,13 +123,12 @@ h1, h2, h3 { color: #fff; }
 }
 
 .editor-image {
-    width: 80%;
-    max-width: 250px;   
-    height: 150px;      
+    width: 50%;
+    max-width: 100px;   
+    height: 80px;      
     object-fit: cover;  
     border-radius: 10px;
-    display: block;
-    margin: 10px auto;  
+    margin: auto;  
 }
 
 
@@ -158,4 +157,5 @@ footer {
 
 
 iframe { width: 100%; border-radius: 10px; border: none; margin-top: 20px; }
+
 
