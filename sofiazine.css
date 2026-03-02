@@ -122,14 +122,17 @@ h1, h2, h3 { color: #fff; }
     color: #aaa;
 }
 
-.editor-image {
-    width: 50%;
-    max-width: 100px;   
-    height: 80px;      
-    object-fit: cover;  
-    border-radius: 10px;
-    margin: auto;  
-}
+.editor-image{
+    width: 280px;
+    height: 280px;
+    float: right; 
+    margin-left: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding:10px;
+    display:block;
+    margin:auto;
+    border:2px solid rgba(245,230,211,0.3);}
 
 
 .update-grid {
@@ -157,5 +160,6 @@ footer {
 
 
 iframe { width: 100%; border-radius: 10px; border: none; margin-top: 20px; }
+
 
 
